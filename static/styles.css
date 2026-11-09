@@ -966,6 +966,12 @@ main {
 }
 
 
+/* INTRO ANIMATION (hidden until the script in index.html takes over) */
+html.intro .landing-hero-copy > *,
+html.intro .phone-row-wrapper {
+  opacity: 0;
+}
+
 /* SCROLL ANIMATIONS */
 .build-in {
   opacity: 0;
